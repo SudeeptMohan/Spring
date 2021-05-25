@@ -17,7 +17,7 @@ public class SpringWebApplication {
 		SpringApplication.run(SpringWebApplication.class,args);
 	}
 	
-	@Bean
+	//@Bean
 		public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
 			return args-> {
 					System.out.println("Let's check beans provided by spring boot");
